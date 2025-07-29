@@ -32,11 +32,11 @@ healthcare-analytics-dashboard/
 ├── README.md                         # Project documentation
 ├── Dashboard.pbix                    # Main Power BI report
 │
-├── dataset/
-│   ├── inpatient/                    # Inpatient source data
-│   └── outpatients/                 # Outpatient source data
+├── Dataset/
+│   ├── Inpatients/                    # Inpatient source data
+│   └── Outpatients/                 # Outpatient source data
 │
-├── screenshots/
+├── Screenshots/
     ├── summary.png
     ├── details.png
     ├── drilldown.png
@@ -49,7 +49,7 @@ healthcare-analytics-dashboard/
 
 ### 📌 Summary View
 
-![Summary](screenshots/summary.png)
+![Summary](Screenshots/Summary.png)
 
 * Compare inpatient and outpatient volumes
 * Heatmaps and KPIs for wait list trends
@@ -57,7 +57,7 @@ healthcare-analytics-dashboard/
 
 ### 📌 Detailed View
 
-![Details](screenshots/details.png)
+![Details](Screenshots/Details.png)
 
 * Filter with date sliders
 * Live-updating data tables
@@ -65,14 +65,14 @@ healthcare-analytics-dashboard/
 
 ### 📌 Drill-Down Analysis
 
-![Drill-down](screenshots/drilldown.png)
+![Drill-down](Screenshots/DrillDown.png)
 
 * Deep contextual analysis by specialty
 * Click to isolate views
 
 ### 📌 Smart Tooltips
 
-![Tooltip](screenshots/tooltip_drilldown.png)
+![Tooltip](Screenshots/tooltip_drilldown.png)
 
 * Hover for dynamic breakdowns
 * See filtered metrics instantly
